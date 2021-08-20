@@ -1,15 +1,23 @@
 body
 {
-    background-color: aqua;
+    background: aqua;
     font-family: cursive;
 }
 .header_div
 {
-  background-color: yellow;
+  background: yellow;
   color: black;
   font-family: fantasy;
 }
-.main_div
+.header_div 
+{
+  font-family: monospace;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.main_div button
 {
     background-color: yellowgreen;
     color: black;
@@ -26,7 +34,7 @@ body
    color: blue;
    width: 100%;
    background-color: orange;
-   font-size: 30px;
+   font-size: 15px;
    text-align: center;
    line-height: 3;
    text-shadow: black;
